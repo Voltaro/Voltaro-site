@@ -11,41 +11,38 @@ body {
   padding: 20px;
 }
 .logo {
-  width: 300px;
-  max-width: 90%;
-  margin-top: 30px;
+  width: 200px;
+  margin-top: 20px;
 }
-.text-block {
-  margin-top: 30px;
-}
-.text-block h1 {
+h1 {
   font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  margin: 10px 0;
 }
-.text-block p {
+.tagline {
   font-size: 1.2rem;
+  margin-bottom: 30px;
 }
-.text-block ol {
-  text-align: left;
-  display: inline-block;
-  margin: 20px auto;
-  font-size: 1rem;
-}
-.buy-button {
+.buy-button, .whitepaper-button {
   background-color: #ffd700;
   color: #000;
   padding: 12px 24px;
-  margin: 10px;
+  margin: 20px auto;
   text-decoration: none;
   font-weight: bold;
   border-radius: 6px;
   display: inline-block;
 }
 .qr {
-  width: 150px;
-  margin-top: 20px;
+  width: 140px;
+  margin: 30px auto;
+}
+.about, .roadmap, .whitepaper {
+  margin: 30px auto;
+  width: 80%;
+  max-width: 600px;
+  text-align: left;
 }
 footer {
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 0.9rem;
 }
